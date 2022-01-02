@@ -1,0 +1,48 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = MenuAssets/iploadingscreen.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  x = -1
+  action = editlogo
+  y = -83
+}
+
+customization {
+  path = MenuAssets/infinitysymbolstylized.png
+  orientation = mid-centered
+  x = 1
+  width = 316
+  action = addtexture
+  actionid = b48f93ad-369b-4657-b1c9-81b40b927aad1640841220405
+  y = 12
+  height = 163
+}
+
+customization {
+  orientation = bottom-centered
+  bartexture = MenuAssets/iploadingbartexture.png
+  x = 5
+  width = 301
+  actionid = 853cd06e-0e88-43c2-b6ab-0dfcf8a218171640841107798
+  y = -1
+  action = addcustomprogressbar
+  backgroundtexture = MenuAssets/iploadingbarbg.png
+  height = 41
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+

@@ -1,0 +1,233 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = MenuAssets/ipmainmenubg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 35
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\1x3buttonhovered.png
+  backgroundnormal = MenuAssets\1x3button.png
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 58
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=604382%
+  width = 45
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = Access
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\ipbuttonsquarehovered.png
+  backgroundnormal = MenuAssets\ipbuttonsquare.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -48
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\1x3buttonhovered.png
+  backgroundnormal = MenuAssets\1x3button.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -98
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\ipquitbuttonhovered.png
+  backgroundnormal = MenuAssets\ipquitbutton.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=376382%
+  width = 45
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = Lang
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\ipbuttonsquarehovered.png
+  backgroundnormal = MenuAssets\ipbuttonsquare.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -181
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=400298%
+  width = 150
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\1x3buttonhovered.png
+  backgroundnormal = MenuAssets\1x3button.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -23
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=400346%
+  width = 50
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = MenuAssets\ipbuttonsquarehovered.png
+  backgroundnormal = MenuAssets\ipbuttonsquare.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = MenuAssets/infinityprogressivelogo.png
+  orientation = mid-centered
+  x = -143
+  width = 290
+  action = addtexture
+  actionid = cd2e8e68-4f47-46aa-9e00-57f849a1ea541640840712074
+  y = -120
+  height = 132
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 123
+  action = addtext
+  actionid = 84507180-ab53-4309-b796-934786bef86e1640936604534
+  y = -17
+  scale = 0.5
+  alignment = left
+  value = 1.0
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = cca24978-abe3-41cc-b6a2-d820e8b833d41640936684006
+  y = 1
+  scale = 1.0
+  alignment = left
+  value = Modpack Developed by PepGames
+}
+

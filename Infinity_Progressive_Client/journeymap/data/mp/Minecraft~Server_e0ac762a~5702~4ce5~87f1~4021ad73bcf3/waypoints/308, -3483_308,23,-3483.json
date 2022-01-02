@@ -1,0 +1,19 @@
+{
+  "id": "308, -3483_308,23,-3483",
+  "name": "308, -3483",
+  "icon": "waypoint-normal.png",
+  "x": 308,
+  "y": 23,
+  "z": -3483,
+  "r": 2,
+  "g": 100,
+  "b": 7,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false
+}
