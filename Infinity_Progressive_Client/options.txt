@@ -130,7 +130,7 @@ key_key.craftingtweaks.refill_last:key.keyboard.tab
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.itemzoom.toggle:key.keyboard.z
 key_key.itemzoom.hold:key.keyboard.unknown
 key_key.itemzoom.zoom.in:key.keyboard.unknown
@@ -150,15 +150,15 @@ key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.show_details:key.keyboard.left.shift
-key_key.inventorysorter.sort:key.mouse.4
 key_key.inventorysorter.itemin:key.mouse.100
+key_key.inventorysorter.sort:key.mouse.4
 key_key.inventorysorter.itemout:key.mouse.102
 key_key.firstperson.toggle:key.keyboard.f6
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
+key_servertabinfo.keys.show:key.keyboard.tab
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_servertabinfo.keys.show:key.keyboard.tab
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o
 key_key.jei.focusSearch:key.keyboard.f

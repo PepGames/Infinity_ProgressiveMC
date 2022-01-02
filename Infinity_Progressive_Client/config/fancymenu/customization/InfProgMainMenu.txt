@@ -75,7 +75,7 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = -48
+  x = -47
   action = movebutton
   y = 58
 }
@@ -216,7 +216,7 @@ customization {
   y = -17
   scale = 0.5
   alignment = left
-  value = 1.0
+  value = 1.1.1
 }
 
 customization {
